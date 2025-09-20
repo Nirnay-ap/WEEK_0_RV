@@ -47,13 +47,13 @@ TASK 2:
 
 TOOLS NEEDED AND HOW TO DOWNLOAD THEM:
 
-# Install Build Dependencies:
+# INSTALL BUILD DEPENDENCIES:
 sudo apt install build-essential git make gcc g++ bison flex \
 libreadline-dev gawk tcl-dev libffi-dev graphviz \
 xdotool pkg-config python3 libboost-system-dev \
 libboost-python-dev libboost-filesystem-dev zlib1g-dev
 
-# Build ansudo apt-get update
+# BUILD AND INSTALL YOSYS:
 $ git clone https://github.com/YosysHQ/yosys.git
 $ cd yosys
 $ sudo apt install make (If make is not installed please install it)
@@ -67,11 +67,11 @@ $ sudo make install
 d Install Yosys:
 
 
-# Build and Install Icarus Verilog:
+# BUILD AND INSTALL ICARUS VERILOG:
 sudo apt-get update
 sudo apt-get install iverilog 
 
-# Build and Install GTKWAVE:
+# BUILD AND INSTALL GTKWAVE:
 sudo apt-get update
 sudo apt install gtkwave 
 
