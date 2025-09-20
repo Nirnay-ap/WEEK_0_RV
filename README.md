@@ -1,4 +1,6 @@
 Summary of the Chip Modeling Life Cycle
+
+
 This document outlines a multi-stage process for designing and verifying an integrated circuit (chip or SoC), emphasizing a methodology where the output of each stage is compared to a golden reference to ensure correctness.
 
 The core philosophy is a "C-to-Silicon" flow that uses a high-level C language model as the primary specification, against which all subsequent implementations are rigorously verified.
