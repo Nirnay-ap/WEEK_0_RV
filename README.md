@@ -39,4 +39,9 @@ Final Checks: The physical design (Group2) goes through Design Rule Checking (DR
 Final Verification: After physical implementation and voltage regulation, a final output (o4) is obtained. The ultimate goal of the entire lifecycle is to achieve functional equivalence at all stages: o1 = o2 = o3 = o4.
 
 Key Takeaway:
-The process is defined by a verification-centric approach, where a golden C reference model is used to validate the design at every major step—from behavioral model to RTL, to integrated SoC, and finally to physical implementation—ensuring the final silicon behaves exactly as originally specified
+The process is defined by a verification-centric approach, where a golden C reference model is used to validate the design at every major step—from behavioral model to RTL, to integrated SoC, and finally to physical implementation—ensuring the final silicon behaves exactly as originally specified.
+
+
+
+
+
